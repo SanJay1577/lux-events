@@ -297,7 +297,7 @@ const FAQ_ITEMS = [
 ];
 
 const CLIENT_LOGOS = [
-  "Singapore Business Network", "Women Leadership Forum"
+  "Singapore Business Network", "Women Leadership Forum", "Singapore Business Network", "Women Leadership Forum", "Singapore Business Network", "Women Leadership Forum"
 ];
 
 const FOUNDER_HIGHLIGHTS = [
