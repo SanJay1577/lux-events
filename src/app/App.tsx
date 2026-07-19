@@ -297,8 +297,7 @@ const FAQ_ITEMS = [
 ];
 
 const CLIENT_LOGOS = [
-  "Lear Corporation", "Hindustan Arts", "Hindustan University", "Alagappa University",
-  "Singapore Business Network", "Women Leadership Forum", "Tamil Nadu Campus Network",
+  "Singapore Business Network", "Women Leadership Forum"
 ];
 
 const FOUNDER_HIGHLIGHTS = [
