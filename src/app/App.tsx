@@ -1555,7 +1555,7 @@ export default function App() {
 
   return (
     <MotionConfig reducedMotion="user">
-    {/* <div className="premium-shell min-h-screen bg-[#F7F4EF] font-['DM_Sans',sans-serif]">
+     <div className="premium-shell min-h-screen bg-[#F7F4EF] font-['DM_Sans',sans-serif]">
       <Header currentPage={currentPage} onNavigate={navigate} />
       <main>
         <AnimatePresence mode="wait" initial={false}>
@@ -1575,8 +1575,8 @@ export default function App() {
       </main>
       <Footer onNavigate={navigate} />
       <Toaster position="top-right" richColors closeButton />
-    </div> */}
-      <div style="text-align: center; color: black; font-size: 30px; font-weight: bold;">404 Not Found</div>
+    </div> 
+      {/* <div style="text-align: center; color: black; font-size: 30px; font-weight: bold;">404 Not Found</div> */}
     </MotionConfig>
   );
 }
