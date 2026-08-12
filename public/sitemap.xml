@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://luxentraevents.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!--
+    This site currently has no real routes (content is toggled by internal
+    tag/state, not URLs), so there is only one crawlable page: the homepage.
+    A sitemap with a single URL is valid and fine to submit as-is.
+    If you later add real routes (see recommendation below), add a <url>
+    block here for each new route.
+  -->
+</urlset>
