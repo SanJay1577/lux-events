@@ -10,6 +10,17 @@ import {
 } from "lucide-react";
 import founderImage from '../assets/founder.webp';
 import Logo from '../assets/logo.webp'
+import Luxpng1 from '../assets/luxevepng1.jpeg'
+import Luxpng2 from '../assets/luxevepng2.jpeg'
+import Luxpng3 from '../assets/luxevepng3.jpeg'
+import Luxpng4 from '../assets/luxevepng4.jpeg'
+import Luxpng5 from '../assets/luxevepng5.jpeg'
+import Luxpng6 from '../assets/luxevepng6.jpeg'
+import Luxpng7 from '../assets/luxevepng7.jpeg'
+
+
+
+
 
 type Page = "home" | "events" | "about" | "contact";
 
@@ -273,10 +284,15 @@ const TESTIMONIALS = [
 ];
 
 const TEAM = [
-  { name: "Arjun Kapoor", role: "Founder & CEO", image: "photo-1507003211169-0a1dd7228f2d" },
-  { name: "Nandita Sharma", role: "Director, Sustainability", image: "photo-1573496359142-b8d87734a5a2" },
-  { name: "Rohan Verma", role: "Head of Events", image: "photo-1500648767791-00dcc994a43e" },
-  { name: "Meera Joshi", role: "CSR Practice Lead", image: "photo-1544005313-94ddf0286df2" },
+  { name: "Arjun Kapoor", role: "Founder & CEO", image: Luxpng1 },
+  { name: "Nandita Sharma", role: "Director, Sustainability", image: Luxpng2 },
+  { name: "Rohan Verma", role: "Head of Events", image: Luxpng3 },
+  { name: "Meera Joshi", role: "CSR Practice Lead", image: Luxpng4 },
+    { name: "Meera Joshi", role: "CSR Practice Lead", image: Luxpng5 },
+      { name: "Meera Joshi", role: "CSR Practice Lead", image: Luxpng6 },
+            { name: "Meera Joshi", role: "CSR Practice Lead", image: Luxpng7},
+
+
 ];
 
 const JOURNEY = [
@@ -821,6 +837,29 @@ function HomePage({ onNavigate }: { onNavigate: (p: Page) => void }) {
           </div>
         </div>
       </section>
+
+{/* {Team Section */} 
+          <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <SectionLabel label="Participant Appreciation" />
+          <h2 className="font-['Playfair_Display'] text-4xl font-bold text-[#1A1A18] mb-12">Launch Event Highlights</h2>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            {TEAM.map(m => (
+              <div key={m.name} className="group">
+                <div className="aspect-square bg-[#E8E3DA] overflow-hidden mb-4">
+                  <img
+                    src={m.image}
+                    alt={m.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                {/* <h3 className="font-semibold text-sm text-[#1A1A18]">{m.name}</h3>
+                <p className="text-xs text-[#1A1A18]/45 mt-0.5">{m.role}</p> */}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section> 
 
       {/* Statistics Section */}
       <section className="py-20 bg-[#1C3D2E]">
